@@ -15,6 +15,6 @@ public class Calculate : MonoBehaviour {
         height *= 0.025f;//convert meters
         height *= height;//square height
         decimal bmi = (decimal)(weight / height);
-        Display.text = bmi.ToString();
+        Display.text = bmi.ToString("F2");
     }
 }
