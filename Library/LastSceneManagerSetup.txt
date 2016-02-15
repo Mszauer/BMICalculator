@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/BMICalc.unity
+  isLoaded: 1
+  isActive: 1
